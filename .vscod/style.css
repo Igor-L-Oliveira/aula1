@@ -17,7 +17,7 @@ body {
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile1.jpg);
+  --bg-url: url(v);
   --stroke-color: rgba(255, 255, 255, 0.05);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -146,3 +146,17 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+
+
+
+ /* media queries */ 
+ @media (min-width: 700px) {
+  :root {
+      --bg-url: url(./assets/bg-mobile2.jpg);
+}
+.light {
+
+  --bg-url: url(./assets/bg-mobile1.jpg)
+}
+ }
